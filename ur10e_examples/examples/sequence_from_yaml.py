@@ -5,10 +5,9 @@ import rospy
 from moveit_commander.conversions import list_to_pose
 
 from move_group_utils.move_group_utils import (MoveGroupUtils,
-                                               publish_trajectory_markers,
-                                               poses_list_from_yaml)
+                                               poses_list_from_yaml,
+                                               publish_trajectory_markers)
 from pilz_robot_program.pilz_robot_program import Lin, Ptp, Sequence
-
 
 home = (0.0, -pi/2.0, pi/2.0, 0.0, pi/2.0, -pi/2)
 
